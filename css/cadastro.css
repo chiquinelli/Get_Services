@@ -1,0 +1,93 @@
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+    background-color: #191970;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Asap, sans-serif;
+        color: #ffffff;
+    
+}
+    h1, h2{
+        font-family: Asap, sans-serif;
+        color: #ffffff;
+        font-size: 40px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    input[type=text]{
+        width: 400px;
+    }
+    input[name=cpf]{
+        width: 150px;
+    }
+    input[name=telefone]{
+        width: 150px;
+    }
+    input[name=telefonecel]{
+        width: 150px;
+    }
+    input[name=cep]{
+        width: 150px;
+    }
+    input[type=email]{
+        width: 400px;
+    }
+    input[type=password]{
+        width: 300px;
+    }
+    form{
+        border: solid 3px;
+        width: 600px;
+        height: 630px;
+        margin-left: 300px;
+        border-radius: 10px;
+        padding: 0;
+        background-color: #f3eded;
+        
+    }
+    button{
+        
+        border-radius: 10px;
+        margin-left: 250px;
+        width: 80px;
+        height: 30px;
+        cursor: pointer;
+        color: rgba(2, 29, 121, 0.89);
+        text-decoration: none;
+        font-family: Nunito, sans-serif;
+        
+        
+        
+    }
+    button a{
+        text-decoration: none;
+        color: rgba(2, 29, 121, 0.89);
+        font-family: Nunito, sans-serif;
+       
+        
+    }
+    button:hover {
+        background-color: rgba(2, 29, 121, 0.89);
+        color:white;
+        
+    }
+    button a :hover {
+        background-color: rgba(2, 29, 121, 0.89);
+        color:white;
+        text-decoration: none;
+        
+    }
+   

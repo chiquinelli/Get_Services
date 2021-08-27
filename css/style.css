@@ -1,0 +1,227 @@
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+h1, h2, h3{
+    font-family: Asap, sans-serif;
+    color: #000000;
+}
+.botao{
+    color: #191970;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    font-size: .9em;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #191970;
+    }
+    nav > a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 800;
+        font-size: 32px;
+        font-family: Nunito, serif;
+        
+    }
+    nav ul{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+    }
+    nav ul li{
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li a {
+        display: inline-block;
+        padding: 10px 0;
+        width: 100%;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../img/carpinteiro.jpg);
+        background-size: contain; /* Cover para cobrir toda a area*/
+        background-repeat: cover;
+        background-position: center;
+        background-color: #191970;;
+        
+        
+        
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px; /* padding é espaçamento*/
+
+}
+header h1 {
+    color:#191970;
+    background-color: #ffffff;
+ 
+    border: 3px solid black;
+    border-radius: 9px;
+}
+header h1 p {
+    background-color: cornsilk;
+    
+}
+header p {
+    margin-bottom: 2em;
+    background-color: #ffffff;
+    color: #191970;
+    border: 2px solid  black;
+    border-radius: 9px;
+}
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
+}
+#sobre h2{
+    color: #FFFFFF;
+}
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+#serviços {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+#serviços div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+#fotos h2{
+    margin-bottom: 20px;
+}
+#fotos img{
+    width: 100%;
+}
+#contato{
+  
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: inline-flex;
+}
+#contato h2 {
+    color: #000000;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #191970;
+}
+footer a {
+    text-decoration: none;
+    color: #fafafa;
+}
+@media screen and (min-width: 768px) {
+        nav {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        nav ul {
+            flex-direction: row;
+            width: 70%;
+        }
+        header{
+            height: 600px;
+            height: 60vh;
+            justify-content: center;
+        }
+        #sobre{
+            height: 250px;
+            height: 30vh;
+            justify-content: center;
+            min-height: 250px;
+        }
+        #serviços{
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1000px;
+            margin:0 auto
+            
+        }
+        #serviços h2{
+            text-align: center;
+            width: 100%;
+        }
+        #serviços div{
+            flex-grow: 1;
+            flex-basis: 150px;
+            padding: 0 10px;
+        }
+        #fotos{
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #fotos h2 {
+            width: 100%;
+            text-align: center;
+
+        }
+        #fotos img{
+            width: 33.333333%;
+        }
+        #contato{
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        #contato h2, #contato p{
+            width: 100%;
+        }
+}
+/*
+<section id="fotos">
+<h2>Fotos</h2>
+<img src="img/ceu.jpg" alt="Ceu">
+<img src="img/grama.jpg" alt="Ceu">
+<img src="img/montanha.jpg" alt="Ceu">
+<img src="img/mar.jpg" alt="Ceu">
+<img src="img/arvores.jpg" alt="Ceu">
+<img src="img/ponte.jpg" alt="Ceu">
+
+</section>
+*/

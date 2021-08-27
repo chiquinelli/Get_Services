@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <!-- <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/normalize.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Services</title>
+
+
+</head>
+
+
+<body>
+    <nav>
+        <h1 class="Getservice">Get Services</h1>
+        <ul>
+
+
+            <!-- <li><a href="#sobre">Sobre</a></li> -->
+            <li><a href="#serviços"  class="nmenu-navegacao">Serviços</a></li>
+            <li><a href="#contato" class="nmenu-navegacao">Contato</a></li>
+            <li><a href="Login.html" class="nmenu-navegacao">Login</a></li>
+        </ul>
+    </nav>
+    <header class="topo" id="topo">
+        <h2 class="titulo-home">Get Services</h2>
+        <div class="main">
+            <img class="img-logo" src="img/carpinteiro.jpg" alt="Logo da Getservices">
+            <div class="texto-botao">
+
+            <p class="texto-cadastro"> A Get Services tem o comprometimento de ajudar você encontrar o prestador de
+                serviço perfeito.</p>
+            <p class="texto-cadastro">Para realizar um cadastro como Profissional ou contratante de serviços. </p>
+            
+            </div>
+            <button class="botao-cadastro" onclick="chamarCad()">Cadastrar</button>
+            <script>
+                function chamarCad() {
+                    window.open('cadastro.html');
+                }
+            </script>
+        </div>
+
+    </header>
+
+
+    <section class="sobre">
+        <h3 class="titulo-home">Sobre</h2>
+            <p class="texto-sobre">Contratar Prestadores de serviços pode ser uma tarefa complicada que pode trazer algumas frustrações
+                mesmo após o serviço estar realizado, pois é necessário conhecer o serviço, preço e a qualidade do
+                profissional, e sem indicações e demonstrações de serviços realizados pode se contratar um mau
+                profissional, pagar mais caro, entre outros tipos de complicações. Desenvolvemos a solução para este
+                problema, um site que terá todas as informações necessárias para a contratação, desde a qualidade do
+                serviço, tipo e o preço ao próprio atendimento, tanto pelas avaliações anteriores, quanto via chat com o
+                próprio profissional.
+            </p>
+            <p class="texto-sobre-contato">
+                Para mais informações entre em contato conosco clicando <a href="#contato" class="link-contato">Aqui </a> .</p>
+
+    </section>
+
+    <section id="servicos">
+        <p class="titulo-home">Serviços</p>
+
+        <!-- <div class="div-servico">
+            <img src="img/p1.png" alt="Carpinteiro"  >
+            <h3>Carpinteiro</h3>
+            <p>Capinteiro de qualidade é coisa rara mas aqui na Get Services você encontra.</p>
+
+        </div> -->
+
+        <div class="div-servico">
+            <img src="img/p2.png"   alt="Encanador">
+            <p class="titulo-img">Encanador</p>
+            <p class="text-servico">Quando um cano se quebra, é um desespero por conta do vazamento de àgua mas aqui você acha os melhores encanadores.</p>
+
+        </div >
+        <div class="div-servico">
+            <img src="img/p3.png" alt="Empregada Doméstica" >
+            <p class="titulo-img">Empregada Doméstica</p>
+            <p class="text-servico">Para cuidar da sua casa tem que ser alguém de confiança, e a Get Services trará tudo com segurança para sua casa.</p>
+
+        </div>
+        <div class="div-servico">
+            <img src="img/p4.jpg" alt="Pedreiro"  >
+            <p class="titulo-img">Pedreiro</p>
+            <p class="text-servico">Com o pedreiro certo sua obra nunca para, então com a Get Services é mãos a obra.</p>
+            <br>
+            <br>
+        </div>
+    </section>
+
+
+
+    <section id="contato">
+        <p class="titulo-contato">Contato</p>
+        <p class="texto-contato">Para entrar em contato com a Get services basta usar um de nossos meios de comunicação listados abaixo.</p>
+        <div>
+            <img src="img/tel.png" alt=""><p class="contato-tel"><a href="tel:011987453563">(11) 9874-53563</a>
+
+            </p>
+        </div>
+        <div>
+            <img src="img/mail.png" alt=""><p class="contato-tel"><a href="mailto:fabriciochiquinelli@gmail.com">Contato@getservices.com</a>
+
+            </p>
+        </div>
+
+    </section>
+    <footer>
+        <a class="link-topo" href="#topo">Voltar ao topo</a>
+        <p class="copyright">Copyright (c) 2020 Getservices.com </p>
+    </footer>
+
+</body>
+
+</html>

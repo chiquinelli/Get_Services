@@ -1,0 +1,260 @@
+body {
+    width:auto;
+}
+
+nav{
+    background: #6A5ACD;
+    width:  100%;
+    height: 50px;
+    
+}
+.Getservice {
+    margin: 13px 10px 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #ffffff;
+    transition: 1s;
+}
+
+.Getservice:hover{
+    color:#B0E0E6;
+    font-size: 1.7rem;
+
+}
+nav ul  {
+    /* display: inline-block; */
+    float: right;
+    margin: 13px 10px 10px 10px;
+    
+}
+/* nav ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    padding: 0 10px 0 10px;
+    
+} */
+nav ul li  a {
+    text-decoration:  none;
+    font-size: 1.3rem;
+    color: aliceblue;
+    transition: 1s;
+
+}
+/* nav ul li  a:hover {
+   
+} */
+li{
+    display: inline-block;
+    width: 150px;
+    
+}
+.nmenu-navegacao:hover{
+    text-decoration:underline;
+    font-size: 1.6rem;
+    color:#B0E0E6;
+    transform: 2s;
+}
+
+.topo{
+width: 80%;
+text-align: center;
+margin: auto;
+margin-top: 20px;
+}
+.titulo-home{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #191970;
+    padding: 20px 0 20px ;
+    text-align: center;
+}
+.main{
+    margin-top: 20px;
+    height: 220px;
+}
+.img-logo{
+    float: left;
+    /* height: min-content; */
+    width: 420px;
+    display: inline;
+    padding: 10px ;
+    box-shadow: -7px -1px 18px 5px;
+    transition: 1s;
+}
+.img-logo:hover{
+   opacity: 80%;
+   transform:translateX(-20px) scale(1.1) ;
+   /* Aqui a imagem vai -20px pra esquerda crescer 10% */
+}
+.texto-botao{
+    display: inline-table;
+    height: 180px;
+}
+
+.texto-cadastro{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1.4rem;
+    padding-left: 8px;
+    display: flex;
+    line-height:40px;
+   
+
+}
+.botao-cadastro{
+    font-size: 1.0rem;
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    transition: 1s;
+    color: #ffffff;
+    background: #6A5ACD;
+    display: flex;
+    width: 130px;
+    place-content: center;
+    margin: auto;
+
+}
+.botao-cadastro:hover {
+    font-size: 1.4rem;
+    background: #6495ED;
+    width: 150px;
+
+    cursor: pointer;
+}
+
+.sobre{
+    clear: both;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+}
+.texto-sobre{
+
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height:30px;
+ }
+ .texto-sobre-contato{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 1.2rem;
+    line-height:30px;
+    margin-bottom: 30px;
+
+ }
+ .link-contato{
+    /* font-style: italic; */
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #191970 ;
+    transition: 150ms;
+ }
+ .link-contato:hover{
+    font-size: 1.6rem;
+    text-decoration:underline;
+    color: dodgerblue;
+ }
+ #servicos{
+     width: 100%;
+     display: block;
+     text-align-last: center;
+
+ }
+ .div-servico{
+         height: 380px;
+
+    width: 25%;
+    display: inline-grid;
+    margin: 35px 5px 0px 40px;
+    padding: 0px 5px 0px 16px;
+    border: solid 3px;
+    border-radius: 40px;
+ }
+ .div-servico:hover{
+     border-color:#6A5ACD ;
+     transform: scale(1.1);
+ }
+ .div-servico img{
+     width: 150px;
+     height: 150px;
+     margin: 20px 0px 0px 0px;
+     border-radius: 10px ;
+     border: 1px solid;
+     place-self: center;
+
+ }
+ .titulo-img{
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1.3rem;
+    text-align: center;   
+ }
+ .text-servico{
+    font-size: 1.1rem;
+    margin: 15px 0 25px 0px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    line-height: 25px;
+ }
+
+ #contato{
+     width: 80%;
+    padding: 20px 0px 20px 0px ;
+    margin: auto;
+}
+ .titulo-contato{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #191970;
+    padding: 20px 0 20px ;
+    text-align: center;
+
+ }
+ .texto-contato{
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: left;   
+ }
+ #contato div {
+    display: flex; 
+    padding: 30px 0px 20px 10px ;
+}
+.contato-tel{
+    margin: 10px 0px 0px 20px;
+}
+.contato-tel a{
+    text-decoration:underline ;
+    color: #000000;
+}
+ footer{
+    background: #6A5ACD;
+    width:  100%;
+    height: 70px;
+    padding: 10px 0px 0px 0px;
+
+ }
+ .link-topo{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff ;
+    text-align: center;
+    padding-left: 45%;
+    margin-bottom: 10px;
+    margin: auto;
+    transition: 180ms;
+ }
+ .link-topo:hover{
+    font-size: 1.4rem;
+ }
+ .copyright{
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+ }

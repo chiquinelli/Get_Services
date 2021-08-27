@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <link rel="stylesheet" href="css/cadastro.css">
+    
+    <title>Cadastro || Get Services</title>
+</head>
+
+<body style="background-image: url('images/bg-01.jpeg');">
+    <nav>
+        <H1>Cadastro de usuário</H1>
+    </nav>
+    
+    <form action="" method="" name="formulario">
+        <div>Nome
+            <input type="text" name="nome" id="nome" placeholder="Alberto Augusto da Silva">
+        </div>
+        <div>
+            CPF
+            <input type="text" name="cpf" class="form-control" onkeypress="$(this).mask('000.000.000-00');">
+        </div>
+        <div>
+            Telefone
+            <input type="text" class="form-control" name="telefone" onkeypress="$(this).mask('(00) 0000-00009')">
+        </div>
+        <div>
+            Telefone Celular
+            <input type="text" class="form-control" name="telefonecel" onkeypress="$(this).mask('(00) 0000-00009')">
+        </div>
+        <div>
+            CEP
+            <input type="text" class="form-control" name="cep" onkeypress="$(this).mask('00.000-000')">
+        </div>
+
+        <div>
+            E-Mail
+            <input type="email" name="email" placeholder="Alberto_Augusto@silva.com">
+
+            Senha
+            <input type="password" name="senha">
+            Novamente a mesma senha
+            <input type="password" name="senha1">
+        </div>
+        <div>
+            <h3> Selecione o tipo de usuário que irá usar.</h3>
+            <input type="radio" id="contratante" name="tipo" value="Contratante">
+            Contratante
+            <input type="radio" id="profissional" name="tipo" value="profissional">
+            Profissional
+
+
+        </div>
+        
+        <button onclick="abreLink();">Enviar</button>
+        <button onclick="voltarLink();" >Voltar</button>
+        <script type="text/javascript">
+            function abreLink(){
+                if (document.formulario.nome.value == "" ){
+                   
+                    alert('Por favor preencha o Nome');
+               
+                
+            }else if (document.formulario.cpf.value == "" ){
+               
+               // alert('Por favor preencha o Cpf');
+                MessageEvent('Por favor preencha o Cpf');
+                
+            }else if (document.formulario.telefone.value == "" ){
+               
+               alert('Por favor preencha os Telefones');
+               
+           }else if (document.formulario.telefonecel.value == "" ){
+               
+               alert('Por favor preencha os Telefones');
+               
+           }else if (document.formulario.cep.value == "" ){
+               
+               alert('Por favor preencha o Cep');
+               
+           }else if (document.formulario.email.value == "" ){
+               
+               alert('Por favor preencha o E-Mail');
+               
+           }else if (document.formulario.senha.value == "" ){
+               
+               alert('Por favor preencha a Senha');
+               
+           }else if (document.formulario.senha.value != document.formulario.senha1.value ){
+               
+               alert('As senhas são diferentes');
+               
+           }
+            else{
+                alert('Cadastro Realizado');
+                window.open('index.html');
+	            
+
+            }
+         }
+         function voltarLink(){
+            window.open('index.html');
+         }
+            
+          </script>
+        
+
+    </form>
+
+
+</body>
+
+</html>
